@@ -16,6 +16,7 @@ class DoneButton extends React.Component {
         duration: 1000,
       }).start();
     }, 1000);
+    console.log('its coming');
   }
 
   render() {

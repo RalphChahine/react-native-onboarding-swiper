@@ -15,7 +15,7 @@ class DoneButton extends React.Component {
         toValue: 1,
         duration: 500,
       }).start();
-    }, 1000);
+    }, 500);
   }
 
   render() {

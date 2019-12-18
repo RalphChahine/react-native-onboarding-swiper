@@ -10,13 +10,12 @@ class DoneButton extends React.Component {
   };
 
   componentDidMount() {
-    setTimeout(() => {
       Animated.timing(this.state.fadeAnim, {
         toValue: 1,
-        duration: 100,
+        duration: 0,
       }).start();
-    }, 100);
-  }
+    };
+
 
   render() {
     const { isLight, ...rest } = this.props;
